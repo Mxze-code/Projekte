@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-dark: #0f1419;
+  --bg-card: #1a2332;
+  --bg-card-hover: #243044;
+  --text-primary: #f0f4f8;
+  --text-secondary: #94a3b8;
+  --accent-gold: #c9a227;
+  --accent-gold-hover: #d4b03a;
+  --border: #2d3a4d;
+  --content-max: 80rem; /* 1280px – großzügige Desktop-Breite */
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
